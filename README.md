@@ -27,7 +27,8 @@
 - Mình chia sẻ kết quả này là để động viên anh em "ngành" hãy cứ mạnh dạn Fine-tuning PhoGPT-7.5B (hoặc các Model-7B nói chung) bằng bộ thư viện PEFT-QLoRA thì khá nhẹ và nhanh chứ không bị nặng và lâu đâu nhé. Mỗi item chỉ train khoảng 1s trên Colab T4 là quá ổn nhé vì train bằng QLoRA nên số lượng params train rất ít mà kết quả vẫn Ok ^^
 
 # Fine-tuning model PhoGPT-7.5B
-- Cấu hình Colab T4 (15GB) trở lên
+- Model architecture: MPT-7B
+- Cấu hình tối thiểu: GPU 15GB ~ Colab T4
 - Source code … không phải làm gì nhiều vì bộ thư viện Transformers và Peft nó làm gần hết việc rồi, chỉ mỗi cấu hình Trainer 😂
 - Dataset cá nhân siêu nhỏ, tuỳ nhu cầu sử dụng
 - Thời gian train ~1s/item
