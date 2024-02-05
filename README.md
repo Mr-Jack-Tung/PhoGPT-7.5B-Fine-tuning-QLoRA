@@ -14,8 +14,9 @@
 
 # Fine-tuning model PhoGPT-7.5B
 - Cấu hình Colab T4 (15GB) trở lên
-- Source code … không phải làm gì nhiều vì bộ thư viện Transformers và Peft nó làm gần hết việc rồi, chỉ mỗi cấu hình Trainer  😂
+- Source code … không phải làm gì nhiều vì bộ thư viện Transformers và Peft nó làm gần hết việc rồi, chỉ mỗi cấu hình Trainer 😂
 - Dataset cá nhân siêu nhỏ, tuỳ nhu cầu sử dụng
 - Thời gian train ~1s/item
 - File LoRA khá nhỏ gọn, tổng cộng khoảng dưới 800MB
 - Training loss xuống cũng khá nhanh, nhưng lại không bị Overfit sớm
+- Khi dùng Peft hay ở chỗ là Fine-tuning thì chỉ cần dùng em T4-15GB colab (vì dùng QLoRA nên giảm được bộ nhớ GPU), nhưng Inference lại phải gọi đến em V100-16GB colab 😂
