@@ -37,10 +37,10 @@
 
 
 # bnb_config = BitsAndBytesConfig(
-. load_in_4bit=True,
-. bnb_4bit_use_double_quant=True,
-. bnb_4bit_quant_type="nf4",
-. bnb_4bit_compute_dtype="float16")
+- load_in_4bit=True,
+- bnb_4bit_use_double_quant=True,
+- bnb_4bit_quant_type="nf4",
+- bnb_4bit_compute_dtype="float16")
 
 # model = AutoModelForCausalLM.from_pretrained(
 - mode_id,
@@ -68,7 +68,7 @@
 - logging_steps=10,
 - num_train_epochs=100,
 - max_steps=100,
-- fp16=True,)
+- fp16=True)
 
 # trainer = SFTTrainer(
 - model=model,
