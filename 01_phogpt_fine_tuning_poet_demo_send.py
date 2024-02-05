@@ -35,7 +35,7 @@ def get_model_and_tokenizer(mode_id):
     model = AutoModelForCausalLM.from_pretrained(
         mode_id,
         quantization_config=bnb_config,
-        device_map="auto",
+        device_map="cuda:0",
         trust_remote_code=True,
     )
 
