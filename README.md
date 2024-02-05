@@ -36,6 +36,11 @@
 - Khi dùng Peft hay ở chỗ là Fine-tuning thì chỉ cần dùng em T4-15GB colab (vì dùng QLoRA nên giảm được bộ nhớ GPU), nhưng Inference lại phải gọi đến em V100-16GB colab
 - Ví dụ: nếu doanh nghiệp của bạn có khoảng 1000 câu hỏi đáp, thì dataset sẽ là 1000 items, Fine-tuning khoảng 30 epoch để cho em nó overfit thì 1000 items x 30 epochs = 30.000 iterations / 3600s = 8.33h Nvidia Tesla T4 colab x $0.42/h = $3.58 ~> một chi phí quá ổn cho một em lễ tân "của nhà trồng được" nhé 😂
 
+# Update 05/02/2024 01PM:
+- khi các bạn train thì nhớ update cái prompt instruction theo sample_prompt_response_pairs (https://github.com/VinAIResearch/PhoGPT/blob/main/sample_instruction_following_dataset/sample_prompt_response_pairs.jsonl) thay cho cái prompt instruction mình đang dùng (version cũ) nhé:
+- '### Instruction:{question}### Response:' ~> '### Câu hỏi:{question}\n\n### Trả lời:'
+- Ví dụ: "### Câu hỏi:\nTìm từ trái nghĩa với từ sau\nỒn ào\n\n### Trả lời:Yên tĩnh."
+
 # bnb_config = BitsAndBytesConfig(
 - load_in_4bit=True,
 - bnb_4bit_use_double_quant=True,
