@@ -3,6 +3,17 @@
 - Start Date: 23 Dec-2023
 - End Date: 05 Feb-2024
 
+# Foundation:
+- github: https://github.com/VinAIResearch/PhoGPT
+- huggingface: https://huggingface.co/vinai/PhoGPT-7B5-Instruct
+- PhoGPT: Generative Pre-training for Vietnamese (https://arxiv.org/abs/2311.02945)
+- MPT model: https://huggingface.co/docs/transformers/model_doc/mpt ; https://www.mosaicml.com/mpt
+- Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs (https://www.databricks.com/blog/mpt-7b)
+- PEFT: https://huggingface.co/docs/peft/en/index
+- LoRA: https://huggingface.co/docs/diffusers/en/training/lora
+- Flash attention: https://huggingface.co/docs/text-generation-inference/conceptual/flash_attention
+- ALiBi: Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation (https://arxiv.org/abs/2108.12409)
+
 # Sự kiện:
 - Ngày 21 Aug-2023: "Vào ngày 21/08/2023, Công ty Cổ phần VinBigdata công bố xây dựng thành công mô hình ngôn ngữ lớn tiếng Việt, đặt nền móng cho việc xây dựng các giải pháp tích hợp AI tạo sinh..." (https://genk.vn/vinbigdata-phat-trien-cong-nghe-ai-tao-sinh-se-som-cho-ra-mat-chatgpt-phien-ban-viet-20230821140700664.chn)
 - Ngày 06 Nov-2023: PhoGPT: Generative Pre-training for Vietnamese (https://arxiv.org/abs/2311.02945)
