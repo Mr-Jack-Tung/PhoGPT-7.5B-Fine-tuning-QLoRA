@@ -4,14 +4,14 @@
 - End Date: 05 Feb-2024
 
 # Foundation:
-- github: https://github.com/VinAIResearch/PhoGPT
-- huggingface: https://huggingface.co/vinai/PhoGPT-7B5-Instruct
+- Github: https://github.com/VinAIResearch/PhoGPT
+- Huggingface: https://huggingface.co/vinai/PhoGPT-7B5-Instruct
 - PhoGPT: Generative Pre-training for Vietnamese (https://arxiv.org/abs/2311.02945)
 - MPT model: https://huggingface.co/docs/transformers/model_doc/mpt ; https://www.mosaicml.com/mpt
 - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs (https://www.databricks.com/blog/mpt-7b)
 - PEFT: https://huggingface.co/docs/peft/en/index ; https://arxiv.org/abs/2205.05638
 - LoRA: https://huggingface.co/docs/diffusers/en/training/lora ; https://arxiv.org/abs/2106.09685
-- Quantization: https://huggingface.co/docs/accelerate/en/usage_guides/quantization
+- Quantization: https://huggingface.co/docs/accelerate/en/usage_guides/quantization ; https://arxiv.org/abs/2208.07339
 - Flash attention: https://huggingface.co/docs/text-generation-inference/conceptual/flash_attention ; https://arxiv.org/abs/2205.14135
 - ALiBi: Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation (https://arxiv.org/abs/2108.12409)
 
