@@ -31,9 +31,9 @@
 - Source code … không phải làm gì nhiều vì bộ thư viện Transformers và Peft nó làm gần hết việc rồi, chỉ mỗi cấu hình Trainer 😂
 - Dataset cá nhân siêu nhỏ, tuỳ nhu cầu sử dụng
 - Thời gian train ~1s/item
-- File LoRA khá nhỏ gọn, tổng cộng khoảng dưới 800MB
+- File LoRA khá nhỏ gọn ~256MB, tổng cộng tất cả các files của 1 checkpoint khoảng dưới 800MB
 - Training loss xuống cũng khá nhanh, nhưng lại không bị Overfit sớm
-- Khi dùng Peft hay ở chỗ là Fine-tuning thì chỉ cần dùng em T4-15GB colab (vì dùng QLoRA nên giảm được bộ nhớ GPU), nhưng Inference lại phải gọi đến em V100-16GB colab 😂
+- Khi dùng Peft hay ở chỗ là Fine-tuning thì chỉ cần dùng em T4-15GB colab (vì dùng QLoRA nên giảm được bộ nhớ GPU), nhưng Inference lại phải gọi đến em V100-16GB colab
 - Ví dụ: nếu doanh nghiệp của bạn có khoảng 1000 câu hỏi đáp, thì dataset sẽ là 1000 items, Fine-tuning khoảng 30 epoch để cho em nó overfit thì 1000 items x 30 epochs = 30.000 iterations / 3600s = 8.33h Nvidia Tesla T4 colab x $0.42/h = $3.58 ~> một chi phí quá ổn cho một em lễ tân "của nhà trồng được" nhé 😂
 
 # bnb_config = BitsAndBytesConfig(
@@ -51,7 +51,7 @@
 # peft_config = LoraConfig(
 - r=32,
 - lora_alpha=32,
-- target_modules=["attn.Wqkv", "attn.out_proj", "ffn.up_proj", "ffn.down_proj",],
+- target_modules=["attn.Wqkv", "attn.out_proj", "ffn.up_proj", "ffn.down_proj"],
 - lora_dropout=0.05,
 - bias="none",
 - task_type="CAUSAL_LM")
