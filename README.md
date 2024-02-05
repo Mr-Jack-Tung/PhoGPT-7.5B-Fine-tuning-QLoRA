@@ -10,9 +10,9 @@
 - MPT model: https://huggingface.co/docs/transformers/model_doc/mpt ; https://www.mosaicml.com/mpt
 - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs (https://www.databricks.com/blog/mpt-7b)
 - PEFT: https://huggingface.co/docs/peft/en/index
-- LoRA: https://huggingface.co/docs/diffusers/en/training/lora
+- LoRA: https://huggingface.co/docs/diffusers/en/training/lora ; https://arxiv.org/abs/2106.09685
 - Quantization: https://huggingface.co/docs/accelerate/en/usage_guides/quantization
-- Flash attention: https://huggingface.co/docs/text-generation-inference/conceptual/flash_attention
+- Flash attention: https://huggingface.co/docs/text-generation-inference/conceptual/flash_attention ; https://arxiv.org/abs/2205.14135
 - ALiBi: Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation (https://arxiv.org/abs/2108.12409)
 
 # Sự kiện:
