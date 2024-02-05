@@ -34,3 +34,48 @@
 - File LoRA khá nhỏ gọn, tổng cộng khoảng dưới 800MB
 - Training loss xuống cũng khá nhanh, nhưng lại không bị Overfit sớm
 - Khi dùng Peft hay ở chỗ là Fine-tuning thì chỉ cần dùng em T4-15GB colab (vì dùng QLoRA nên giảm được bộ nhớ GPU), nhưng Inference lại phải gọi đến em V100-16GB colab 😂
+
+
+# bnb_config = BitsAndBytesConfig(
+. load_in_4bit=True,
+. bnb_4bit_use_double_quant=True,
+. bnb_4bit_quant_type="nf4",
+. bnb_4bit_compute_dtype="float16")
+
+# model = AutoModelForCausalLM.from_pretrained(
+- mode_id,
+- quantization_config=bnb_config,
+- device_map="cua",
+- trust_remote_code=True)
+
+# peft_config = LoraConfig(
+- r=32,
+- lora_alpha=32,
+- target_modules=["attn.Wqkv", "attn.out_proj", "ffn.up_proj", "ffn.down_proj",],
+- lora_dropout=0.05,
+- bias="none",
+- task_type="CAUSAL_LM")
+
+# training_arguments = TrainingArguments(
+- output_dir=output_model,
+- per_device_train_batch_size=1,
+- gradient_accumulation_steps=1,
+- optim="paged_adamw_32bit",
+- learning_rate=1e-4,
+- lr_scheduler_type="cosine",
+- save_strategy="steps",
+- save_steps=50,
+- logging_steps=10,
+- num_train_epochs=100,
+- max_steps=100,
+- fp16=True,)
+
+# trainer = SFTTrainer(
+- model=model,
+- train_dataset=data,
+- peft_config=peft_config,
+- dataset_text_field="text",
+- args=training_arguments,
+- tokenizer=tokenizer,
+- packing=False,
+- max_seq_length=1024)
