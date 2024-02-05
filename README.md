@@ -3,7 +3,7 @@
 - Start Date: 23 Dec-2023
 - End Date: 05 Feb-2024
 
-# Foundation:
+# Fundamental:
 - Github: https://github.com/VinAIResearch/PhoGPT
 - Huggingface: https://huggingface.co/vinai/PhoGPT-7B5-Instruct
 - PhoGPT: Generative Pre-training for Vietnamese (https://arxiv.org/abs/2311.02945)
