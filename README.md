@@ -29,7 +29,7 @@
 # Fine-tuning model PhoGPT-7.5B
 - Model architecture: MPT-7B
 - Cấu hình tối thiểu: GPU 15GB ~ Colab T4
-- Source code … không phải làm gì nhiều vì bộ thư viện Transformers và Peft nó làm gần hết việc rồi, chỉ mỗi cấu hình Trainer 😂
+- Source code thì … copy-paste … không phải làm gì nhiều vì bộ thư viện Transformers và Peft nó làm gần hết việc rồi, chỉ mỗi cấu hình Trainer 😂
 - Dataset cá nhân siêu nhỏ, tuỳ nhu cầu sử dụng
 - Thời gian train ~1s/item
 - File LoRA khá nhỏ gọn ~256MB, tổng cộng tất cả các files của 1 checkpoint khoảng dưới 800MB
