@@ -23,7 +23,7 @@
 - Ngày 06 Dec-2023: Được mệnh danh là "ChatGPT phiên bản Việt", PhởGPT có gì khác biệt? (https://doisongphapluat.nguoiduatin.vn/uoc-menh-danh-la-chat-gpt-phien-ban-viet-pho-gpt-co-gi-khac-biet-a395419.html)
 
 # Lý do:
-- Khi mà trên thế giới tràn ngập các model English only với quy mô từ nhỏ (1M-33M-124M), vừa (355M-774M-1.5B) đến lớn (3B-7B-13B-34B) và khổng lồ (70B-180B), nhưng ở Việt Nam thì chưa thấy có model nào quy mô khoảng 7B dùng được cả thì việc fine-tuning được một em ChatGPT biết "ăn nói nhẹ hàng" ở nhà để vọc vạch là "ước mơ" của bao đời Lập trình viên chứ không của riêng ai. Vì vậy khi VinAi công bố model PhoGPT-7.5B là mình cũng thấy rất hào hứng và muốn bắt tay vào fine-tuning em nó để phục vụ mục đích nghiên cứu và học tập.
+- Khi mà trên thế giới tràn ngập các model English only với quy mô từ nhỏ (1M-33M-124M), vừa (355M-774M-1.5B) đến lớn (3B-7B-13B-34B) và khổng lồ (70B-180B), nhưng ở Việt Nam thì chưa thấy có model nào quy mô khoảng 7B dùng được :( thì việc fine-tuning được một em ChatGPT biết "ăn nói nhẹ hàng" ở nhà để vọc vạch là "ước mơ" của bao đời lập trình viên chứ không của riêng ai. Vì vậy khi VinAi công bố model PhoGPT-7.5B là mình cũng thấy rất hào hứng và muốn bắt tay vào fine-tuning em nó để phục vụ mục đích nghiên cứu và học tập.
 - Mình chia sẻ kết quả này là để động viên anh em "ngành" hãy cứ mạnh dạn Fine-tuning PhoGPT-7.5B (hoặc các Model-7B nói chung) bằng bộ thư viện PEFT-QLoRA thì khá nhẹ và nhanh chứ không bị nặng và lâu đâu nhé. Mỗi item chỉ train khoảng 1s trên Colab T4 là quá ổn nhé vì train bằng QLoRA nên số lượng params train rất ít mà kết quả vẫn Ok ^^
 
 # Fine-tuning model PhoGPT-7.5B
