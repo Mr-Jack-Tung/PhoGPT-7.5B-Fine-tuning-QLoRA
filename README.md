@@ -37,6 +37,8 @@
 - Khi dùng Peft Fine-tuning với QLoRA-4bit thì giảm được bộ nhớ GPU rất nhiều nên chỉ cần dùng em T4-15GB colab, nhưng Inference 16bfloat thì lại phải gọi đến em V100-16GB colab
 - Ví dụ: nếu doanh nghiệp bạn có khoảng 1000 câu hỏi đáp, thì dataset sẽ là 1000 items, Fine-tuning khoảng 30 epoch (ChatGPT-3 fine-tuning khoảng 16 epochs ?! để overfit dữ liệu; còn GPT2 thì "We then fine-tuned a model on each of the datasets, with 500 training epochs per model 😂, a threshold chosen to prevent overfitting."_page4 of https://arxiv.org/pdf/1908.09203.pdf) để cho em nó overfit thì 1000 items x 30 epochs = 30.000 iterations / 3600s = 8.33h Nvidia Tesla T4 colab x $0.42/h = $3.58 ~> một chi phí quá ổn cho một em lễ tân "của nhà trồng được" nhé 😂
 
+![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/Training%20loss.jpg)
+
 # Update 05/02/2024 01PM:
 - khi các bạn train thì nhớ update cái prompt instruction theo sample_prompt_response_pairs (https://github.com/VinAIResearch/PhoGPT/blob/main/sample_instruction_following_dataset/sample_prompt_response_pairs.jsonl) thay cho cái prompt instruction mình đang dùng (version cũ) nhé:
 - '### Instruction:{question}### Response:' ~> '### Câu hỏi:{question}\n\n### Trả lời:'
