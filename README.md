@@ -42,32 +42,7 @@
 - '### Instruction:{question}### Response:' ~> '### Câu hỏi:{question}\n\n### Trả lời:'
 - Ví dụ: "### Câu hỏi:\nTìm từ trái nghĩa với từ sau\nỒn ào\n\n### Trả lời:Yên tĩnh."
 
-"""
-MPTForCausalLM(
-  (transformer): MPTModel(
-    (wte): SharedEmbedding(250880, 4096)
-    (emb_drop): Dropout(p=0.0, inplace=False)
-    (blocks): ModuleList(
-      (0-31): 32 x MPTBlock(
-        (norm_1): LPLayerNorm((4096,), eps=1e-05, elementwise_affine=True)
-        (attn): MultiheadAttention(
-          (Wqkv): Linear4bit(in_features=4096, out_features=12288, bias=True)
-          (out_proj): Linear4bit(in_features=4096, out_features=4096, bias=True)
-        )
-        (norm_2): LPLayerNorm((4096,), eps=1e-05, elementwise_affine=True)
-        (ffn): MPTMLP(
-          (up_proj): Linear4bit(in_features=4096, out_features=16384, bias=True)
-          (act): GELU(approximate='none')
-          (down_proj): Linear4bit(in_features=16384, out_features=4096, bias=True)
-        )
-        (resid_attn_dropout): Dropout(p=0.0, inplace=False)
-        (resid_ffn_dropout): Dropout(p=0.0, inplace=False)
-      )
-    )
-    (norm_f): LPLayerNorm((4096,), eps=1e-05, elementwise_affine=True)
-  )
-)
-"""
+![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/PhoGPT-7B5-Instruct%20model.jpg)
 
 # bnb_config = BitsAndBytesConfig(
 - load_in_4bit=True,
