@@ -42,8 +42,6 @@
 - '### Instruction:{question}### Response:' ~> '### Câu hỏi:{question}\n\n### Trả lời:'
 - Ví dụ: "### Câu hỏi:\nTìm từ trái nghĩa với từ sau\nỒn ào\n\n### Trả lời:Yên tĩnh."
 
-![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/PhoGPT-7B5-Instruct%20model.jpg)
-
 # bnb_config = BitsAndBytesConfig(
 - load_in_4bit=True,
 - bnb_4bit_use_double_quant=True,
@@ -55,6 +53,8 @@
 - quantization_config=bnb_config,
 - device_map="cua",
 - trust_remote_code=True)
+
+![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/PhoGPT-7B5-Instruct%20model.jpg)
 
 # peft_config = LoraConfig(
 - r=32,
