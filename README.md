@@ -7,7 +7,7 @@
 - Github: https://github.com/VinAIResearch/PhoGPT
 - Huggingface: https://huggingface.co/vinai/PhoGPT-7B5-Instruct
 - PhoGPT: Generative Pre-training for Vietnamese (https://arxiv.org/abs/2311.02945)
-- MPT model: https://huggingface.co/docs/transformers/model_doc/mpt ; https://www.mosaicml.com/mpt ; https://www.databricks.com/blog/mpt-7b
+- MPT model: https://huggingface.co/docs/transformers/model_doc/mpt ; https://www.mosaicml.com/mpt
 - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs (https://www.databricks.com/blog/mpt-7b)
 - PEFT: https://huggingface.co/docs/peft/en/index ; https://arxiv.org/abs/2205.05638
 - LoRA: https://huggingface.co/docs/diffusers/en/training/lora ; https://arxiv.org/abs/2106.09685
