@@ -92,6 +92,12 @@
 - packing=False,
 - max_seq_length=1024)
 
+# Sử dụng model mặc định, chưa qua fine-tuning:
+
 ![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/10-cau-hoi-ve-kinh-doanh.jpg)
 
 ![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/10-cau-hoi-ve-ban-hang.jpg)
+
+![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/chuyen-gia-tu-van-khoi-nghiep.jpg)
+
+![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/chuyen-gia-tu-van-tinh-truong.jpg)
