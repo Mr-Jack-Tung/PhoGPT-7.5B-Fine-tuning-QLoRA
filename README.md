@@ -1,4 +1,4 @@
-- PhoGPT-7.5B-Fine-tuning-QLoRA
+# PhoGPT-7.5B-Fine-tuning-QLoRA
 - Author: Mr.Jack _ Công ty www.BICweb.vn
 - Start Date: 23 Dec-2023
 - End Date: 05 Feb-2024
