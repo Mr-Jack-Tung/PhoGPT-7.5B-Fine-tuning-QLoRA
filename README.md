@@ -91,3 +91,7 @@
 - tokenizer=tokenizer,
 - packing=False,
 - max_seq_length=1024)
+
+![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/10-cau-hoi-ve-kinh-doanh.jpg)
+
+![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/10-cau-hoi-ve-ban-hang.jpg)
