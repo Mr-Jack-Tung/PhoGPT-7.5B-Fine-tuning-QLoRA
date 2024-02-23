@@ -41,7 +41,7 @@
 
 ![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/LoRA%20checkpoin%20files.jpg)
 
-## Update 05/02/2024 01PM:
+## Update 05/02/2024 - 01PM:
 - khi các bạn train thì nhớ update cái prompt instruction theo sample_prompt_response_pairs (https://github.com/VinAIResearch/PhoGPT/blob/main/sample_instruction_following_dataset/sample_prompt_response_pairs.jsonl) thay cho cái prompt instruction mình đang dùng (version cũ) thì sẽ chuẩn hơn nhé:
 - '### Instruction:{question}### Response:' ~> '### Câu hỏi:{question}\n\n### Trả lời:'
 - Ví dụ: "### Câu hỏi:\nTìm từ trái nghĩa với từ sau\nỒn ào\n\n### Trả lời:Yên tĩnh."
