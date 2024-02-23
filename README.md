@@ -101,3 +101,9 @@
 ![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/chuyen-gia-tu-van-khoi-nghiep.jpg)
 
 ![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/chuyen-gia-tu-van-tinh-truong.jpg)
+
+## Update 23Feb2024 - 08PM
+Test thử em vinai/PhoGPT-4B-Chat-v0.1 thấy cũng hay phết ^.^
+
+
+
