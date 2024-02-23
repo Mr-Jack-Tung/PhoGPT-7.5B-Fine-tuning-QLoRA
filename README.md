@@ -105,5 +105,13 @@
 ## Update 23Feb2024 - 08PM
 Test thử em vinai/PhoGPT-4B-Chat-v0.1 thấy cũng hay phết ^.^ Cấu hình chạy cũng nhẹ nhàng, chỉ cần dùng Colab-T5 là dùng được, mà chỉ cần chạy có 50% là khoảng 7GB GPU thôi nhé.
 
+- Model: vinai/PhoGPT-4B-Chat-v0.1
+- Type: Instruction following & Chat
+- Model Size: 3.7B
+- Context length: 8192
+- Vocab size: 20K
+- Training data size: 70K instructional prompt and response pairs & 290K conversations
+- Note: PROMPT_TEMPLATE = "### Câu hỏi: {instruction}\n### Trả lời:"
+
 ![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/test_PhoGPT-4B-Chat-v01.jpg)
 
