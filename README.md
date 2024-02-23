@@ -98,9 +98,7 @@
 
 ![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/10-cau-hoi-ve-ban-hang.jpg)
 
-![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/chuyen-gia-tu-van-khoi-nghiep.jpg)
-
-![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/chuyen-gia-tu-van-tinh-truong.jpg)
+![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/chuyen-gia-tu-van-khoi-nghiep.jpg)![alt text](https://github.com/Mr-Jack-Tung/PhoGPT-7.5B-Fine-tuning-QLoRA/blob/main/chuyen-gia-tu-van-tinh-truong.jpg)
 
 ## Update 23Feb2024 - 08PM
 Test thử em vinai/PhoGPT-4B-Chat-v0.1 thấy cũng hay phết ^.^ Cấu hình chạy cũng nhẹ nhàng, chỉ cần dùng Colab-T5 là dùng được, mà chỉ cần chạy có 50% là khoảng 7GB GPU thôi nhé.
