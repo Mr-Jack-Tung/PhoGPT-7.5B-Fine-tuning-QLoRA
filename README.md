@@ -2,6 +2,7 @@
 - Author: Mr.Jack _ Công ty www.BICweb.vn
 - Start Date: 23 Dec-2023
 - End Date: 05 Feb-2024
+- If you like what I do, give me a star ^^ ~> ⭐
 
 ## Fundamental:
 - Github: https://github.com/VinAIResearch/PhoGPT
